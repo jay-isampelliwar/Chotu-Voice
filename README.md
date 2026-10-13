@@ -27,6 +27,14 @@ Both models come from [Cactus Compute](https://cactuscompute.com/needle) and run
 | **Whistle** | Speech to text | 16.9 MB | `needle.transcribe(audio, language="en", keywords=KEYWORDS)` |
 | **Needle 3** | Picks a tool and fills in its arguments | 34 MB | `needle.Needle(tools=TOOLS, stateless=True).complete(text)` |
 
+Links:
+
+| | Needle 3 | Whistle |
+|---|---|---|
+| About | [cactuscompute.com/needle](https://cactuscompute.com/needle) | [cactuscompute.com/blog/whistle](https://cactuscompute.com/blog/whistle) |
+| Model weights | [huggingface.co/Cactus-Compute/needle3](https://huggingface.co/Cactus-Compute/needle3) | [huggingface.co/Cactus-Compute/whistle](https://huggingface.co/Cactus-Compute/whistle) |
+| Source code | [github.com/cactus-compute/needle](https://github.com/cactus-compute/needle) | Same repo |
+
 Notes on how we use them:
 
 - **Whistle** takes 16 kHz mono audio, up to 30 seconds. `KEYWORDS` biases it towards words like "WhatsApp" and "Bluetooth".
