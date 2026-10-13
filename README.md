@@ -27,13 +27,18 @@ Both models come from [Cactus Compute](https://cactuscompute.com/needle) and run
 | **Whistle** | Speech to text | 16.9 MB | `needle.transcribe(audio, language="en", keywords=KEYWORDS)` |
 | **Needle 3** | Picks a tool and fills in its arguments | 34 MB | `needle.Needle(tools=TOOLS, stateless=True).complete(text)` |
 
-Links:
+Official links, as listed on [cactuscompute.com/needle](https://cactuscompute.com/needle):
 
-| | Needle 3 | Whistle |
-|---|---|---|
-| About | [cactuscompute.com/needle](https://cactuscompute.com/needle) | [cactuscompute.com/blog/whistle](https://cactuscompute.com/blog/whistle) |
-| Model weights | [huggingface.co/Cactus-Compute/needle3](https://huggingface.co/Cactus-Compute/needle3) | [huggingface.co/Cactus-Compute/whistle](https://huggingface.co/Cactus-Compute/whistle) |
-| Source code | [github.com/cactus-compute/needle](https://github.com/cactus-compute/needle) | Same repo |
+| What | Link |
+|---|---|
+| Needle home page | [cactuscompute.com/needle](https://cactuscompute.com/needle) |
+| Whistle announcement | [cactuscompute.com/blog/whistle](https://cactuscompute.com/blog/whistle) |
+| Hugging Face (model weights) | [huggingface.co/Cactus-Compute](https://huggingface.co/Cactus-Compute) |
+| GitHub (source, `pip install cactus-needle`) | [github.com/cactus-compute/needle](https://github.com/cactus-compute/needle) |
+| Python reference | [cactuscompute.com/blog/needle-python-docs](https://cactuscompute.com/blog/needle-python-docs) |
+| Designing tools for Needle | [cactuscompute.com/blog/designing-tools-for-needle](https://cactuscompute.com/blog/designing-tools-for-needle) |
+| Confidence scores | [cactuscompute.com/blog/needle-confidence](https://cactuscompute.com/blog/needle-confidence) |
+| Fine-tuning Needle | [cactuscompute.com/blog/finetuning-needle](https://cactuscompute.com/blog/finetuning-needle) |
 
 Notes on how we use them:
 
