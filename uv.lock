@@ -159,17 +159,6 @@ wheels = [
 ]
 
 [[package]]
-name = "hf"
-version = "2.2.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "huggingface-hub" },
-]
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/46/5c/f9b6862cb8c545963c86b67df2fb7a13f42f7789b516ee25ae93e78a2f15/hf-2.2.0-py3-none-any.whl", hash = "sha256:532453f1158fb45f9f43a71c2f0312cd74ccf7a0c979487d28aaa24cfeef9d79", size = 2404, upload-time = "2026-10-08T15:30:54.632Z" },
-]
-
-[[package]]
 name = "hf-xet"
 version = "1.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -266,7 +255,6 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "cactus-needle", extra = ["mic"] },
-    { name = "hf" },
     { name = "numpy" },
     { name = "pynput" },
     { name = "webrtcvad-wheels" },
@@ -275,7 +263,6 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "cactus-needle", extras = ["mic"], specifier = ">=3.2.1" },
-    { name = "hf", specifier = ">=2.2.0" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "pynput", specifier = ">=1.8.2" },
     { name = "webrtcvad-wheels", specifier = ">=2.0.14.post1" },
