@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "cactus-needle[mic]>=3.2.1",
     "numpy>=2.5.4",
+    "playwright>=1.64.0",
     "pynput>=1.8.2",
     "webrtcvad-wheels>=2.0.14.post1",
 ]
